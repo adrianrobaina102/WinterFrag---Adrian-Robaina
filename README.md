@@ -5,9 +5,10 @@
 
 ---
 
-## Demostración en Vídeo (< 30s)
+## Enlaces Directos
 
 [![Video Demostración](https://img.shields.io/badge/YOUTUBE-VIDEO_DEMOSTRACIÓN-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qCxdnhgdqtA)
+[![Abrir en CodeSandbox](https://img.shields.io/badge/CODESANDBOX-ABRIR_VISOR_WEB-151515?style=for-the-badge&logo=codesandbox&logoColor=white)](https://codesandbox.io/p/github/TU_USUARIO/TU_REPO)
 
 ---
 
@@ -15,11 +16,11 @@
 
 | Muñeco de Nieve (sin nieve) | Muñeco de Nieve (con nieve) |
 | :---: | :---: |
-| ![Muñeco de nieve sin nieve](https://i.postimg.cc/nLDzpZyw/muneco-sin-nieve.gif) | ![Muñeco de nieve con nieve](https://i.postimg.cc/P58h8ySD/muneco-con-nieve.gif) |
+| ![Muñeco de nieve sin nieve](./assets/muneco-sin-nieve.gif) | ![Muñeco de nieve con nieve](./assets/muneco-con-nieve.gif) |
 
 | Árbol de Navidad (sin nieve) | Árbol de Navidad (con nieve) |
 | :---: | :---: |
-| ![Árbol de Navidad sin nieve](https://i.postimg.cc/Fzm1TqnD/arbol-sin-nieve.gif) | ![Árbol de Navidad con nieve](https://i.postimg.cc/wTgs2tCJ/arbol-con-nieve.gif) |
+| ![Árbol de Navidad sin nieve](./assets/arbol-sin-nieve.gif) | ![Árbol de Navidad con nieve](./assets/arbol-con-nieve.gif) |
 
 | Grinch y Max (normal) | Grinch y Max (enfadado) |
 | :---: | :---: |
@@ -36,6 +37,7 @@ Con la llegada de la campaña navideña, el objetivo de esta práctica es recrea
 ## Estructura del Proyecto
 
 ```text
+├── assets/                          # GIFs de demostración para el README
 ├── src/
 │   ├── index.html                   # Visor web con Three.js y barra de control inferior
 │   ├── main.js                      # Escena, cámara fija, blending de nieve y controles
@@ -55,7 +57,7 @@ Con la llegada de la campaña navideña, el objetivo de esta práctica es recrea
 ## Cómo Ejecutar la Práctica
 
 ### 1. Visor Web (CodeSandbox)
-1. Abre el proyecto en **CodeSandbox** o en un servidor local.
+1. Haz clic en el botón superior **[Abrir en CodeSandbox](https://codesandbox.io/p/github/TU_USUARIO/TU_REPO)** o abre el proyecto en un servidor local.
 2. La escena carga en Three.js con cámara fija centrada y los siguientes controles interactivos:
    - **Botón `⛄ Muñeco [1]` o Tecla [1]:** Carga el Muñeco de Nieve LED (Shader Principal).
    - **Botón `🎄 Árbol [2]` o Tecla [2]:** Carga el Árbol de Navidad (*Tiny Code* de 511 bytes).
